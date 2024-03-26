@@ -24,8 +24,8 @@ import { ref, computed } from 'vue'
 import axios from 'axios'
 
 
-// const apiUrl = ref('https://jjmpeg-api.onrender.com/download')
-const apiUrl = ref('http://localhost:3000/download')
+const apiUrl = ref('https://jjmpeg-api.onrender.com/download')
+// const apiUrl = ref('http://localhost:3000/download')
 const m3u8Url = ref('')
 const Origin = ref('')
 const Referer = ref('')
