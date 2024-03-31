@@ -1,4 +1,4 @@
-
+ /* my vite: "^5.1.6", */
 import { createApp } from 'vue'
 import App from './App.vue'
 
