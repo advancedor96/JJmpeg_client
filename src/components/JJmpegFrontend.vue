@@ -32,7 +32,7 @@
     try {
       let res = axios.get('https://jjmpeg-api.onrender.com/get');
       console.log('res:',res);
-      const socket = new WebSocket('ws://jjmpeg-api.onrender.com:1234');
+      const socket = new WebSocket('wss://jjmpeg-api.onrender.com:1234');
       socket.onopen = function(event) {
         console.log('ws 連到 server~');
       };
