@@ -23,8 +23,8 @@
   import { io } from "socket.io-client";
 
   
-  // const apiUrl = ref('https://jjmpeg-api.onrender.com')
-  const apiUrl = ref('http://localhost:3000')
+  const apiUrl = ref('https://jjmpeg-api.onrender.com')
+  // const apiUrl = ref('http://localhost:3000')
   const socket = io(apiUrl.value);
   const m3u8Url = ref('https://assets.afcdn.com/video49/20210722/m3u8/lld/v_645516.m3u8')
   const Origin = ref('')
